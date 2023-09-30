@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#firstpart{
+    color: white;
+    padding: 165px 0px;
+    margin: 60px auto 0px;
+    display: flex;
+    max-width: 950px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #F96699;
+    font-family: 'Smooch', cursive;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+#secondpart{
+    color: white;
+    margin: 60px auto 0px;
+    max-width: 950px;
+    border-radius: 15px;
+    font-family: 'Smooch', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 80px 0px;
+}
+#secondpart .comn{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    padding: 15px;
+    font-size: 27px;
+}
+.logo i{
+    padding: 15px;
+}
+#secondpart{
+    background-color: #38CCCC;
+    display:flex;
+    flex-direction: row;
+}
+#secondpart a{
+    text-decoration: none;
+    color: #9F6;
+}
+#secondpart p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+#secondpart div{
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar nav{
+    display: flex;
+    margin: 60px auto 40px;
+    max-width: 950px;
+    text-indent: 30px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+#navbar nav a{
+    text-decoration: none;
+    color:#38CCCC ;
+    font-family: 'Smooch', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#navbar #last{
+    color: #F96699;
+}
+#navbar nav a:hover{
+    opacity: 0.5;
+}
+#imagespart{
+    max-width: 950px;
+    margin: 0px auto;
+}
+#imagespart img{
+   height: 210px;
+   width: 210px; 
+   margin: 10px;
+   border-radius: 15px;
+   opacity: 0.8;
+}
+#imagespart img:hover{
+    opacity: 1;
+}
+#lastpart{
+    color: white;
+    margin: 60px auto 0px;
+    max-width: 950px;
+    border-radius: 15px;
+    font-family: 'Smooch', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 80px 0px;
+    background-color: powderblue;
+}
+#lastpart #bord input, #lastpart #bord textarea{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom:1px solid white;
+}
+#lastpart .un{
+    text-decoration: none;
+    color: white;
+}
